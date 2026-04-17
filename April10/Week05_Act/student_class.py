@@ -1,13 +1,13 @@
-class Student_nbs:
-    def __init__(self_nbs, name_nbs, student_id_nbs, course_nbs):
-        self_nbs.name_nbs = name_nbs
-        self_nbs.student_id_nbs = student_id_nbs
-        self_nbs.course_nbs = course_nbs
+class Student_smg:
+    def __init__(self_smg, name_smg, student_id_smg, course_smg):
+        self_smg.name_smg = name_smg
+        self_smg.student_id_smg = student_id_smg
+        self_smg.course_smg = course_smg
     
-    def display_student_nbs(self_nbs):
-        print("Name:", self_nbs.name_nbs)
-        print("Student ID:", self_nbs.student_id_nbs)
-        print("Course:", self_nbs.course_nbs)
+    def display_student_smg(self_smg):
+        print("Name:", self_smg.name_smg)
+        print("Student ID:", self_smg.student_id_smg)
+        print("Course:", self_smg.course_smg)
 
-student1_nbs = Student_nbs("Maria", "2023-001", "BSIS")
-student1_nbs.display_student_nbs()
+student1_smg = Student_smg("Maria", "2023-001", "BSIS")
+student1_smg.display_student_smg()
