@@ -1,28 +1,29 @@
-class Book_nbs:
-    def __init__(self_nbs, title_nbs, author_nbs, year_nbs):
-        self_nbs.title_nbs = title_nbs
-        self_nbs.author_nbs = author_nbs
-        self_nbs.year_nbs = year_nbs
+class Book_smg:
+    def __init__(self_smg, title_smg, author_smg, year_smg):
+        self_smg.title_smg = title_smg
+        self_smg.author_smg = author_smg
+        self_smg.year_smg = year_smg
     
-    def display_book_nbs(self_nbs):
-        print("Title:", self_nbs.title_nbs)
-        print("Author:", self_nbs.author_nbs)
-        print("Year:", self_nbs.year_nbs)
+    def display_book_smg(self_smg):
+        print("Title:", self_smg.title_smg)
+        print("Author:", self_smg.author_smg)
+        print("Year:", self_smg.year_smg)
         print()
 
 print("----- LIBRARY MANAGEMENT SYSTEM -----\n")
 
 # Create three book objects
-book1_nbs = Book_nbs("Python Programming", "John Smith", 2022)
-book2_nbs = Book_nbs("Data Science Basics", "Sarah Johnson", 2021)
-book3_nbs = Book_nbs("Web Development Guide", "Mike Davis", 2023)
+book1_smg = Book_smg("Python Programming", "John Smith", 2022)
+book2_smg = Book_smg("Data Science Basics", "Sarah Johnson", 2021)
+book3_smg = Book_smg("Web Development Guide", "Mike Davis", 2023)
 
 # Display book information
 print("Book 1:")
-book1_nbs.display_book_nbs()
+book1_smg.display_book_smg()
 
 print("Book 2:")
-book2_nbs.display_book_nbs()
+book2_smg.display_book_smg()
 
 print("Book 3:")
-book3_nbs.display_book_nbs()
+book3_smg.display_book_smg()
+
