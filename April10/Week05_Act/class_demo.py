@@ -1,11 +1,11 @@
-class Person_nbs:
-    def __init__(self_nbs, name_nbs, age_nbs):
-        self_nbs.name_nbs = name_nbs
-        self_nbs.age_nbs = age_nbs
+class Person_smg:
+    def __init__(self_smg, name_smg, age_smg):
+        self_smg.name_smg = name_smg
+        self_smg.age_smg = age_smg
     
-    def display_info_nbs(self_nbs):
-        print("Name:", self_nbs.name_nbs)
-        print("Age:", self_nbs.age_nbs)
+    def display_info_smg(self_smg):
+        print("Name:", self_smg.name_smg)
+        print("Age:", self_smg.age_smg)
 
-p1_nbs = Person_nbs("Juan", 20)
-p1_nbs.display_info_nbs()
+p1_smg = Person_smg("Juan", 20)
+p1_smg.display_info_smg()
