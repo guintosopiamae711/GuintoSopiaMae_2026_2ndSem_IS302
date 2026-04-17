@@ -1,7 +1,7 @@
-number_nbs = int(input("Enter a number: "))
-if number_nbs > 0:
+number_smg = int(input("Enter a number: "))
+if number_smg > 0:
     print("Positive")
-elif number_nbs < 0:
+elif number_smg < 0:
     print("Negative")
 else:
     print("Zero")
