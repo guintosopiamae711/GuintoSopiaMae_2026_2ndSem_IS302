@@ -1,3 +1,3 @@
-for i_nbs in range(1, 51):
-    if i_nbs % 2 == 0:
-        print(i_nbs)
+for i_smg in range(1, 51):
+    if i_smg % 2 == 0:
+        print(i_smg)
