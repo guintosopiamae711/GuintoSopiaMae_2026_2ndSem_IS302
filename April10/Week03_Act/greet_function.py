@@ -1,4 +1,4 @@
-def greet_student_nbs():
+def greet_student_smg():
     print("Welcome to Object-Oriented Programming")
 
-greet_student_nbs()
+greet_student_smg()
