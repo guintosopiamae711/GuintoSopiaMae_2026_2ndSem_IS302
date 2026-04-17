@@ -1,23 +1,23 @@
-class BankAccount_nbs:
-    def __init__(self_nbs, account_name_nbs, balance_nbs):
-        self_nbs.account_name_nbs = account_name_nbs
-        self_nbs.balance_nbs = balance_nbs
+class BankAccount_smg:
+    def __init__(self_smg, account_name_smg, balance_smg):
+        self_smg.account_name_smg = account_name_smg
+        self_smg.balance_smg = balance_smg
     
-    def deposit_nbs(self_nbs, amount_nbs):
-        self_nbs.balance_nbs += amount_nbs
+    def deposit_smg(self_smg, amount_smg):
+        self_smg.balance_smg += amount_smg
         print("Deposit successful")
     
-    def withdraw_nbs(self_nbs, amount_nbs):
-        if amount_nbs <= self_nbs.balance_nbs:
-            self_nbs.balance_nbs -= amount_nbs
+    def withdraw_smg(self_smg, amount_smg):
+        if amount_smg <= self_smg.balance_smg:
+            self_smg.balance_smg -= amount_smg
             print("Withdrawal successful")
         else:
             print("Insufficient balance")
     
-    def display_balance_nbs(self_nbs):
-        print("Balance:", self_nbs.balance_nbs)
+    def display_balance_smg(self_smg):
+        print("Balance:", self_smg.balance_smg)
 
-account_nbs = BankAccount_nbs("Juan", 5000)
-account_nbs.deposit_nbs(1000)
-account_nbs.withdraw_nbs(2000)
-account_nbs.display_balance_nbs()
+account_smg = BankAccount_smg("Juan", 5000)
+account_smg.deposit_smg(1000)
+account_smg.withdraw_smg(2000)
+account_smg.display_balance_smg()
