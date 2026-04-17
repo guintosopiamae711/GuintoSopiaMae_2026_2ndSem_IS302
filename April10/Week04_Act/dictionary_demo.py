@@ -4,5 +4,5 @@ student_nbs = {
     "course": "BSIS",
     "year_level": 2
 }
-for key_nbs, value in student_nbs.items():
-    print(key_nbs, ":", value)
+for key_smg, value in student_smg.items():
+    print(key_smg, ":", value)
